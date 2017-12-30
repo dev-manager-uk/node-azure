@@ -5,7 +5,7 @@
   "repository": "https://github.com/vrudikov/typescript-rest-boilerplate.git",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/ts-node src/index.ts",
+    "start": "./node_modules/.bin/ts-node src/server.ts",
     "start:cluster": "./node_modules/.bin/ts-node src/cluster.ts",
     "build": "npm run clean && tsc && npm run swagger",
     "clean": "rimraf dist",
