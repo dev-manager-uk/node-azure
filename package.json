@@ -18,6 +18,9 @@
     "tsc": "tsc",
     "doc": "typedoc --out ./doc/ --name 'Typescript-rest-Boilerplate' --readme ./README.MD --module commonjs --target ES6 --includeDeclarations --excludePrivate --excludeExternals ./src"
   },
+  "engines":{ 
+    "node":"8.9.3" 
+  }, 
   "dependencies": {
     "typescript-rest": "^1.1.1",
     "typescript-rest-swagger": "0.0.10"
