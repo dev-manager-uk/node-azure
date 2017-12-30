@@ -49,3 +49,17 @@ npm run doc
 ```
 
 The project documentation will be saved under ```./doc``` folder.
+
+## Deploy to Azure
+
+Update App Settings on Azure with the following:
+
+```
+WEBSITE_NODE_DEFAULT_VERSION 8.9.3
+```
+Before pushing to Azure, make sure `node_modules` and `dist` folder are created by running the following
+
+```
+npm install
+npm run-script build
+```
